@@ -8,6 +8,6 @@ void main()
 	printf("Unsigned: %d to %u\n", 0, UINT_MAX);
 	printf("Long Int:\nSigned:%ld to %ld\n", LONG_MIN, LONG_MAX);
 	printf("Unsigned: %d to %lu\n", 0, ULONG_MAX);
-	printf("Long Long Int:\nSigned:%lld to %lld\n", LONG_LONG_MIN, LONG_LONG_MAX);
-	printf("Unsigned: %d to %llu\n", 0, ULONG_LONG_MAX);
+	printf("Long Long Int:\nSigned:%lld to %lld\n", LLONG_MIN, LLONG_MAX);
+	printf("Unsigned: %d to %llu\n", 0, ULLONG_MAX);
 }
